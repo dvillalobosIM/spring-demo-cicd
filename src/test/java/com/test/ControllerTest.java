@@ -9,16 +9,16 @@ public class ControllerTest {
 
     @Test
     public void getNumberOneTest() {
-        Assert.assertEquals(1, controller.getNumberOne());
+        Assert.assertEquals(1, controller.getNumberOne().getNumber());
     }
 
     @Test
     public void getNumberTwoTest() {
-        Assert.assertEquals(2, controller.getNumberTwo());
+        Assert.assertEquals(2, controller.getNumberTwo().getNumber());
     }
 
     @Test
     public void getNumberThreeTest() {
-        Assert.assertEquals(3, controller.getNumberThree());
+        Assert.assertEquals(3, controller.getNumberThree().getNumber());
     }
 }

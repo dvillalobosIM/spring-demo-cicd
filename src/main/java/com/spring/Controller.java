@@ -7,17 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @GetMapping(path = "/one")
-    public int getNumberOne() {
-        return 1;
+    public ResponseBody getNumberOne() {
+        return new ResponseBody(1);
     }
 
     @GetMapping(path = "/two")
-    public int getNumberTwo() {
-        return 2;
+    public ResponseBody getNumberTwo() {
+        return new ResponseBody(2);
     }
 
     @GetMapping(path = "/three")
-    public int getNumberThree() {
-        return 3;
+    public ResponseBody getNumberThree() {
+        return new ResponseBody(3);
     }
 }
