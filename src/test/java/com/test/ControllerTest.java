@@ -21,4 +21,9 @@ public class ControllerTest {
     public void getNumberThreeTest() {
         Assert.assertEquals(3, controller.getNumberThree().getNumber());
     }
+
+    @Test
+    public void getNumberFourTest() {
+        Assert.assertEquals(4, controller.getNumberFour().getNumber());
+    }
 }
