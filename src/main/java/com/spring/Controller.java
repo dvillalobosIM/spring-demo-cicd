@@ -1,7 +1,6 @@
 package com.spring;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -22,7 +21,7 @@ public class Controller {
         return new ResponseBody(3);
     }
 
-    @PostMapping(path = "/four")
+    @GetMapping(path = "/four")
     public ResponseBody getNumberFour() {
         return new ResponseBody(4);
     }
