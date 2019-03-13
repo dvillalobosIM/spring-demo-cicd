@@ -20,4 +20,9 @@ public class Controller {
     public ResponseBody getNumberThree() {
         return new ResponseBody(3);
     }
+
+    @GetMapping(path = "/four")
+    public ResponseBody getNumberFour() {
+        return new ResponseBody(4);
+    }
 }
