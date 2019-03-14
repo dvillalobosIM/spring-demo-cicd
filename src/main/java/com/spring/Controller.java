@@ -30,4 +30,9 @@ public class Controller {
     public ResponseBody getNumberFive() {
         return new ResponseBody(5);
     }
+
+    @GetMapping(path = "/six")
+    public ResponseBody getNumberSix() {
+        return new ResponseBody(5);
+    }
 }
