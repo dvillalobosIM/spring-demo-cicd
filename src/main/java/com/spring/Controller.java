@@ -25,4 +25,9 @@ public class Controller {
     public ResponseBody getNumberFour() {
         return new ResponseBody(4);
     }
+
+    @GetMapping(path = "/five")
+    public ResponseBody getNumberFive() {
+        return new ResponseBody(5);
+    }
 }
