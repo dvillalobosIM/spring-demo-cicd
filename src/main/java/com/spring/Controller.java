@@ -33,6 +33,6 @@ public class Controller {
 
     @GetMapping(path = "/six")
     public ResponseBody getNumberSix() {
-        return new ResponseBody(5);
+        return new ResponseBody(6);
     }
 }
